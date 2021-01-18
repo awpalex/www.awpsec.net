@@ -1,38 +1,10 @@
-baseURL: 'http://localhost:1313'
-languageCode: en-us
+baseURL: 'http://www.awpsec.net/'
+languageCode: en-gb
 title: AWPSEC
 theme: hugo-PaperMod
 
 author:
     name: "Alex Whittle Palmer"
-#params:
-#    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-#    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-#    author: AWPSEC
-#    defaultTheme: auto
-#    homeSubtitle: "awpsec"
-#    profileMode:
-#        enabled: false
-#        title: PaperMod
-#        imageUrl: "#"
-#        imageTitle: my image
-#        # imageWidth: 120
-#        # imageHeight: 120
-#        buttons:
-#            - name: Archives
-#              url: archives
-#            - name: Tags
-#              url: tags
-#    homeInfoParams:
-#        env: production
-#        Title: "AWPSEC"
-#        Content: >
-#            AWPSEC Website Draft
-#
-#            - **Papermod** is what i used here
-#    socialIcons:
-#        - name: github
-#          url: "https://github.com/awpalex"
 params:
     profileMode:
         enabled: true
@@ -55,3 +27,12 @@ menu:
         url: about/
       - name: Contact
         url: contact/
+build:
+	publish: public
+	command: hugo
+context:
+	production:
+		environment:
+			HUGO_VERSION: 0.80.0
+			HUGO_ENV: production
+			HUGO_ENABLELEGITINFO: 'true'
