@@ -1,0 +1,57 @@
+baseURL: 'http://localhost:1313'
+languageCode: en-us
+title: AWPSEC
+theme: hugo-PaperMod
+
+author:
+    name: "Alex Whittle Palmer"
+#params:
+#    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+#    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+#    author: AWPSEC
+#    defaultTheme: auto
+#    homeSubtitle: "awpsec"
+#    profileMode:
+#        enabled: false
+#        title: PaperMod
+#        imageUrl: "#"
+#        imageTitle: my image
+#        # imageWidth: 120
+#        # imageHeight: 120
+#        buttons:
+#            - name: Archives
+#              url: archives
+#            - name: Tags
+#              url: tags
+#    homeInfoParams:
+#        env: production
+#        Title: "AWPSEC"
+#        Content: >
+#            AWPSEC Website Draft
+#
+#            - **Papermod** is what i used here
+#    socialIcons:
+#        - name: github
+#          url: "https://github.com/awpalex"
+params:
+    profileMode:
+        enabled: true
+        title: "AWPSEC" # optional default will be site title
+        
+        #buttons:
+        #    - name: Archive
+        #      url: "https://github.com"
+        #    - name: Github
+        #      url: "https://github.com/"
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://www.github.com/awpalex"
+        - name: "twitter"
+          url: "https://www.twitter.com/awp_al"
+menu:
+    main:
+      - name: About
+        url: about/
+      - name: Contact
+        url: contact/

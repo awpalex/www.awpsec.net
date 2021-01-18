@@ -1,0 +1,4 @@
+Canonical: http://www.awpsec.net/.well-known/security.txt
+Contact: security@awpsec.net
+Expires: Wed, 10 Nov 2021 23:59:00 -0000
+Preferred-Languages: English
