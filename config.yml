@@ -27,9 +27,6 @@ menu:
         url: about/
       - name: Contact
         url: contact/
-build:
-	publish: public
-	command: hugo
 context:
 	production:
 		environment:
