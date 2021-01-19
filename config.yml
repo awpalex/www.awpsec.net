@@ -3,10 +3,6 @@ languageCode: en-gb
 title: AWPSEC
 theme: hugo-PaperMod
 
-build:
-    command: hugo
-    commandOrigin: ui
-    publish: /opt/build/repo/public
 author:
     name: "Alex Whittle Palmer"
 params:
