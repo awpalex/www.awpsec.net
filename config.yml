@@ -1,4 +1,5 @@
 baseURL: 'http://www.awpsec.net/'
+#baseURL: 'localhost:1313'
 languageCode: en-gb
 title: AWPSEC
 theme: hugo-PaperMod
